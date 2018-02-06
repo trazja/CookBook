@@ -8,25 +8,37 @@
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+
+        android:layout_centerHorizontal="true"
+        android:text="jakisTytuł"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
     <TextView
         android:id="@+id/textDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_above="@+id/textCalories"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="jakiśOpis" />
 
     <TextView
         android:id="@+id/textIngridients"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="" />
+
+
+        android:layout_alignStart="@+id/textDescription"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginTop="59dp"
+        android:text="Składniki" />
 
     <TextView
         android:id="@+id/textCalories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Kalorie" />
 
 </RelativeLayout>

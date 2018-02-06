@@ -29,9 +29,7 @@ public class RecipeDetailsFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_recipe_details, container, false);
     }
 
-    public void setRecipe(int id) {
-        this.recipeId = id;
-    }
+
 
     //pobieram główny widok fragmentu
     @Override
@@ -58,6 +56,10 @@ public class RecipeDetailsFragment extends Fragment {
 
         }
 
+    }   public void setRecipe(int id) {
+        this.recipeId = id;
     }
+
+
 
 }
