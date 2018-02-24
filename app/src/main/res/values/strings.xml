@@ -1,6 +1,34 @@
 <resources>
+    <string name="hello_blank_fragment">blankfragment</string>
     <string name="app_name">CookBook</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_add_to_shopping_list">Dodaj do listy zakupów</string>
+    <string name="shopping_list_name">Lista zakupów</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="title_top">Fragment TopFragment</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="breakfasts">
+        <item>Jajecznica z pieczarkami</item>
+        <item>Tosty z łososiem i awokado</item>
+        <item>Czekoladowa owsianka z bananem</item>
+    </string-array>
+
+    <string-array name="dinners">
+        <item>Makaron ze szpinakiem</item>
+        <item>Zupa ogórkowa</item>
+        <item>Domowe burgery</item>
+    </string-array>
+
+    <string-array name="suppers">
+        <item>Sałatka grecka</item>
+        <item>Sałatka cezar</item>
+        <item>Sałatka warzywna</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Ekran główny</item>
+        <item>Śniadania</item>
+        <item>Obiady</item>
+        <item>Kolacje</item>
+    </string-array>
 </resources>
