@@ -31,4 +31,7 @@
         <item>Obiady</item>
         <item>Kolacje</item>
     </string-array>
+
+    <string name="open_drawer">Otwórz szufladę</string>
+    <string name="close_drawer">Zamknij szufladę</string>
 </resources>
