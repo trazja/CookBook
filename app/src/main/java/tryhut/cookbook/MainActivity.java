@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
         drawerList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, titles));
         drawerList.setOnItemClickListener(new DrawerItemClickListener());
 
-        if (savedInstanceState == null) {
+        if (savedInstanceState != null) {
             currentPosition = savedInstanceState.getInt("position");
             setActionBarTitle(currentPosition);
         } else {
